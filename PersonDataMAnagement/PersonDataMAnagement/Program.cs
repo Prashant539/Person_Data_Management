@@ -20,6 +20,9 @@ namespace PersonDatamanagement
                 people.Add(new Person() { SSN = 8, Name = "Aditya", Address = "Panjab", Age = 85 });
                 people.Add(new Person() { SSN = 9, Name = "Vishnu", Address = "Kerla", Age = 7 });
                 people.Add(new Person() { SSN = 10, Name = "Anil", Address = "Asam", Age = 55 });
+
+                Operations operations = new Operations();
+                operations.RetreiveTopRecordsOfAge(people);
             }
         }
     }
