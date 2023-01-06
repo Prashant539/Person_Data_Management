@@ -14,7 +14,7 @@ namespace PersonDatamanagement
                 people.Add(new Person() { SSN = 2, Name = "Vijay", Address = "Kanpur", Age = 14 });
                 people.Add(new Person() { SSN = 3, Name = "Kapil", Address = "Gorakhpur", Age = 52 });
                 people.Add(new Person() { SSN = 4, Name = "Ram", Address = "Basti", Age = 5 });
-                people.Add(new Person() { SSN = 5, Name = "Aakash", Address = "Delhi", Age = 10 });
+                people.Add(new Person() { SSN = 5, Name = "Aakash", Address = "Delhi", Age = 15 });
                 people.Add(new Person() { SSN = 6, Name = "Rupesh", Address = "Pune", Age = 65});
                 people.Add(new Person() { SSN = 7, Name = "Akhil", Address = "Noida", Age = 70 });
                 people.Add(new Person() { SSN = 8, Name = "Aditya", Address = "Panjab", Age = 85 });
@@ -23,6 +23,7 @@ namespace PersonDatamanagement
 
                 Operations operations = new Operations();
                 operations.RetreiveTopRecordsOfAge(people);
+                operations.RetreiveAllRecordsOfAge(people);
             }
         }
     }
